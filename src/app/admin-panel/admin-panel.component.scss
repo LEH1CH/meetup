@@ -1,0 +1,30 @@
+/* admin-panel.component.scss */
+
+.admin-panel {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .admin-panel h2 {
+    color: #333;
+  }
+  
+  .admin-panel ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .admin-panel li {
+    margin-bottom: 10px;
+  }
+  
+  .admin-panel li span {
+    margin-right: 10px;
+  }
+  
+  /* Дополнительные стили по желанию */
+  

@@ -1,0 +1,14 @@
+<p>header works!</p>
+<div class="header">
+    <div class="logo">Ваш логотип</div>
+    <div class="nav-links">
+      <a routerLink="/home" *ngIf="isLoggedIn">Главная</a>
+      <a routerLink="/meetups" *ngIf="isLoggedIn">Митапы</a>
+      <a *ngIf="isAdmin$ | async" routerLink="/admin">Панель администратора</a>
+    </div>
+    <div class="auth-controls">
+      <button *ngIf="isLoggedIn" (click)="logout()">Выйти</button>
+      <a routerLink="/login" *ngIf="!isLoggedIn">Войти</a>
+    </div>
+  </div>
+  

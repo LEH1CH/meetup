@@ -1,0 +1,19 @@
+/* meetup-card.component.scss */
+
+.meetup-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .meetup-card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .meetup-card p {
+    font-size: 1rem;
+  }
+  

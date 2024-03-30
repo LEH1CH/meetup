@@ -1,0 +1,7 @@
+<!-- meetup-list.component.html -->
+
+<div class="meetup-list">
+  <div *ngFor="let meetup of meetups">
+    <app-meetup-card [meetup]="meetup"></app-meetup-card>
+  </div>
+</div>

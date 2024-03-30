@@ -1,0 +1,16 @@
+<!-- admin-panel.component.html -->
+
+<div class="admin-panel">
+    <h2>Панель администратора</h2>
+    
+    <!-- Список пользователей -->
+    <h3>Список пользователей</h3>
+    <ul>
+      <li *ngFor="let user of users">
+        <span>{{ user.username }}</span> - <span>{{ user.email }}</span> - <span>{{ user.role }}</span>
+      </li>
+    </ul>
+    
+    <!-- Другие элементы управления для администратора -->
+  </div>
+  
